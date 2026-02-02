@@ -8,11 +8,37 @@ h1 {font-family: Brush Script MT;
    } 
 body {background-color: #facdee;
      }
+ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 0;
+  background-color: #facdee;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+ul li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover {background-color: #f576d3; 
+              border-radius: 30px;
+}
 </style>
 </head>
 <body>
 <div class="header">
 <h1>My Personal Blog</h1>
+<ul>
+  <li><a href="">Home</a></li>
+  <li><a href="">Posts</a></li>
+  <li><a href="">Gallery</a></li>
+  <li><a href="">About Me</a></li>
+</ul>
 </div>
 </body>
 </html>

@@ -26,6 +26,7 @@ img {
 }
 blockquote {
   color: gray;
+  text-align: center;
 }
 .me {
   color: white;
@@ -41,7 +42,7 @@ blockquote {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: #301671;
+  background-color: #facdee;
   align: center;
   }
 .picture {

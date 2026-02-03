@@ -2,11 +2,13 @@
 <html>
 <head>
 <style>
-h1 {font-family: Brush Script MT;
+h1 {
+    font-family: Brush Script MT;
     text-align: center;
     font-size: 40px;
    } 
-body {background-color: #facdee;
+body {
+    background-color: #facdee;
      }
 ul {
   list-style-type: none;
@@ -25,19 +27,37 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-ul li a:hover {background-color: #f576d3; 
-              border-radius: 30px;
+
+ul li a:link {
+  color: red;
+  text-decoration: none;
 }
+
+ul li a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #f576d3; 
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+ul li a:active {
+  color: hotpink;
+  text-decoration: none;
+} 
 </style>
 </head>
 <body>
 <div class="header">
 <h1>My STE Journey</h1>
 <ul>
-  <li><a href="">Home</a></li>
-  <li><a href="">Posts</a></li>
-  <li><a href="">Gallery</a></li>
-  <li><a href="">About Me</a></li>
+  <li><a href="https://awkaye.github.io/personal_blog/home.html">Home</a></li>
+  <li><a href="https://awkaye.github.io/personal_blog/posts.html">Posts</a></li>
+  <li><a href="https://awkaye.github.io/personal_blog/gallery.html">Gallery</a></li>
+  <li><a href="https://awkaye.github.io/personal_blog/aboutme.html">About Me</a></li>
 </ul>
 </div>
 </body>

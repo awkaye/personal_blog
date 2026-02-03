@@ -1,0 +1,90 @@
+body {
+     background-color: #ffdefd;
+     }
+span { 
+     font-weight: bold;
+}
+h1 {font-family: Georgia;
+    text-align: center;
+    font-size: 40px;
+   } 
+.home {text-align: center;
+}
+#mainTitle {
+    font-family: Brush Script MT;
+    text-align: center;
+    font-size: 40px;
+   } 
+.bg {
+    background-color: #facdee;
+     }
+img {
+  float: left;
+  margin-left: 10px;
+  width: 200px;
+  height: 200px;  
+}
+blockquote {
+  color: gray;
+}
+.me {
+  color: white;
+  font-family: Times New Roman;
+  text-align: center;
+  }
+.profile {
+  width: 700px;
+  height: 300px;
+  padding: 10px;
+  border: 0px solid white;
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #301671;
+  align: center;
+  }
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  }
+ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 0;
+  background-color: #facdee;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+ul li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:link {
+  color: red;
+  text-decoration: none;
+}
+
+ul li a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #f576d3; 
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+ul li a:active {
+  color: hotpink;
+  text-decoration: none;
+} 
